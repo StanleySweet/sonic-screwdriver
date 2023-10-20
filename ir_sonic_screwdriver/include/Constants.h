@@ -3,6 +3,9 @@
 
 #include <pins_arduino.h>
 
+#include <cstddef>
+#include <string>
+
 #define USE_BUILTIN_BUTTON 0
 
 #ifndef PIN_NEOPIXEL
@@ -41,14 +44,16 @@ const uint8_t COMMAND_BUTTON = 27;
 #endif
 #endif
 
-constexpr volatile unsigned long INTERRUPT_DEBOUCE_TIME = 50;
-constexpr volatile unsigned long WAIT_FOR_INPUT_DELAY = 750;
-constexpr volatile unsigned long BUTTON_RELEASE_TIMEOUT = 2000;
-constexpr volatile unsigned long INACTIVITY_TIMEOUT = 6000;
-constexpr volatile unsigned long PROGRAMMING_TIME = 5000;
-constexpr volatile int IR_RECEIVER_BUFFER_LENGTH = 1024;
-constexpr volatile int IR_RECEIVER_TIMEOUT = 50;
-const int NOTE_DURATION_FACTOR = 275;
-const unsigned long BATTERY_PRINT_INTERVAL = 10 * 1000;
+extern const volatile unsigned long INTERRUPT_DEBOUCE_TIME;
+extern const int IR_RECEIVER_BUFFER_LENGTH;
+extern const int IR_RECEIVER_TIMEOUT;
+extern const unsigned long WAIT_FOR_INPUT_DELAY;
+extern const unsigned long BUTTON_RELEASE_TIMEOUT;
+extern const unsigned long INACTIVITY_TIMEOUT;
+extern const unsigned long PROGRAMMING_TIME;
+extern const unsigned long PROGRAMMING_TIMEOUT;
+extern const unsigned long BATTERY_PRINT_INTERVAL;
+extern const std::string MAGIC;
+extern const std::size_t EEPROM_SIZE;
 
 #endif // CONSTANTS_H
