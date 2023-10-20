@@ -2,19 +2,31 @@
 
 ## Introduction
 
-With the recent hype about Doctor Who's 60th birthday, I wanted to make a little screwdriver of my own.
+With the recent hype about Doctor Who's 60th birthday, I wanted to make a little screwdriver of my own. The idea was to have something we can use after the promotional shot for the PR department to keep opening and closing the shutters.
+
+## Roadmap
+
+### Minimum
+
+- [x] Lighting the screwdriver led
+- [x] Add sounds to the screwdriver
+- [x] Use the NeoPixel led to convey information about modes
+- [x] Allow registering signals using an IR receiver
+- [x] Allow sending signals using an IR led
+- [x] Allow to monitor the battery level through serial
+
+## Bonus
+
+- [x] Save the signals between restarts / disconnections
+- [x] Add a low power mode
+
+### Extra Bonus
+
+- [x] Allow to monitor the battery level through the neopixel led
+- [ ] Allow remote connexions using the wifi module
+- [ ] Allow the screwdriver led to change colors depending on a setting
 
 
-## Specification
-
-The screw driver has 4 modes it can
-
-
-
-
-## Original
-
--
 
 
 ## Parts
