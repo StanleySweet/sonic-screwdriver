@@ -37,24 +37,25 @@ namespace ScrewDriver
   class State
   {
   public:
-    volatile bool IsProgramming;
-    volatile bool IsRunningSubRoutine;
+    bool IsProgramming;
+    bool IsRunningSubRoutine;
     volatile bool WaitingForInput;
     volatile unsigned long InterruptLastTime;
-    volatile unsigned long LastBatteryPrintTime;
-    volatile Mode CurrentMode;
-    volatile Mode PreviousMode;
+    unsigned long LastBatteryPrintTime;
+    unsigned long LastProgrammingStartTime;
+    unsigned long PreviousBlinkTime;
+    unsigned long PreviousSendTime;
+    Mode CurrentMode;
+    Mode PreviousMode;
     IRrecvPtr IRReceiver;
     IRsendPtr IRSender;
     ButtonStatePtr Button;
     AdafruitNeoPixelPtr NeoPixelBuiltin;
     BuzzerStatePtr Buzzer;
-    std::array<decode_results, 4U> Signals;
+    std::array<decode_results, 5U> Signals;
     State(int16_t neoPixelPin);
     void SetMode(Mode newMode);
     void SetNeoPixelColor(NeoPixel::Color color);
-    void ResetButtonTime();
-    void ResetButtonPressCount();
     NeoPixel::Color GetProgrammingModeColor(uint8_t mode);
     NeoPixel::Color GetSendingModeColor(uint8_t mode);
   };
