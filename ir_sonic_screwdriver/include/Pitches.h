@@ -1,0 +1,97 @@
+#ifndef PITCHES_H
+#define PITCHES_H
+
+namespace Pitches
+{
+    const unsigned int Note_B0 = 31;
+    const unsigned int Note_C1 = 33;
+    const unsigned int Note_CS1 = 35;
+    const unsigned int Note_D1 = 37;
+    const unsigned int Note_DS1 = 39;
+    const unsigned int Note_E1 = 41;
+    const unsigned int Note_F1 = 44;
+    const unsigned int Note_FS1 = 46;
+    const unsigned int Note_G1 = 49;
+    const unsigned int Note_GS1 = 52;
+    const unsigned int Note_A1 = 55;
+    const unsigned int Note_AS1 = 58;
+    const unsigned int Note_B1 = 62;
+    const unsigned int Note_C2 = 65;
+    const unsigned int Note_CS2 = 69;
+    const unsigned int Note_D2 = 73;
+    const unsigned int Note_DS2 = 78;
+    const unsigned int Note_E2 = 82;
+    const unsigned int Note_F2 = 87;
+    const unsigned int Note_FS2 = 93;
+    const unsigned int Note_G2 = 98;
+    const unsigned int Note_GS2 = 104;
+    const unsigned int Note_A2 = 110;
+    const unsigned int Note_AS2 = 117;
+    const unsigned int Note_B2 = 123;
+    const unsigned int Note_C3 = 131;
+    const unsigned int Note_CS3 = 139;
+    const unsigned int Note_D3 = 147;
+    const unsigned int Note_DS3 = 156;
+    const unsigned int Note_E3 = 165;
+    const unsigned int Note_F3 = 175;
+    const unsigned int Note_FS3 = 185;
+    const unsigned int Note_G3 = 196;
+    const unsigned int Note_GS3 = 208;
+    const unsigned int Note_A3 = 220;
+    const unsigned int Note_AS3 = 233;
+    const unsigned int Note_B3 = 247;
+    const unsigned int Note_C4 = 262;
+    const unsigned int Note_CS4 = 277;
+    const unsigned int Note_D4 = 294;
+    const unsigned int Note_DS4 = 311;
+    const unsigned int Note_E4 = 330;
+    const unsigned int Note_F4 = 349;
+    const unsigned int Note_FS4 = 370;
+    const unsigned int Note_G4 = 392;
+    const unsigned int Note_GS4 = 415;
+    const unsigned int Note_A4 = 440;
+    const unsigned int Note_AS4 = 466;
+    const unsigned int Note_B4 = 494;
+    const unsigned int Note_C5 = 523;
+    const unsigned int Note_CS5 = 554;
+    const unsigned int Note_D5 = 587;
+    const unsigned int Note_DS5 = 622;
+    const unsigned int Note_E5 = 659;
+    const unsigned int Note_F5 = 698;
+    const unsigned int Note_FS5 = 740;
+    const unsigned int Note_G5 = 784;
+    const unsigned int Note_GS5 = 831;
+    const unsigned int Note_A5 = 880;
+    const unsigned int Note_AS5 = 932;
+    const unsigned int Note_B5 = 988;
+    const unsigned int Note_C6 = 1047;
+    const unsigned int Note_CS6 = 1109;
+    const unsigned int Note_D6 = 1175;
+    const unsigned int Note_DS6 = 1245;
+    const unsigned int Note_E6 = 1319;
+    const unsigned int Note_F6 = 1397;
+    const unsigned int Note_FS6 = 1480;
+    const unsigned int Note_G6 = 1568;
+    const unsigned int Note_GS6 = 1661;
+    const unsigned int Note_A6 = 1760;
+    const unsigned int Note_AS6 = 1865;
+    const unsigned int Note_B6 = 1976;
+    const unsigned int Note_C7 = 2093;
+    const unsigned int Note_CS7 = 2217;
+    const unsigned int Note_D7 = 2349;
+    const unsigned int Note_DS7 = 2489;
+    const unsigned int Note_E7 = 2637;
+    const unsigned int Note_F7 = 2794;
+    const unsigned int Note_FS7 = 2960;
+    const unsigned int Note_G7 = 3136;
+    const unsigned int Note_GS7 = 3322;
+    const unsigned int Note_A7 = 3520;
+    const unsigned int Note_AS7 = 3729;
+    const unsigned int Note_B7 = 3951;
+    const unsigned int Note_C8 = 4186;
+    const unsigned int Note_CS8 = 4435;
+    const unsigned int Note_D8 = 4699;
+    const unsigned int Note_DS8 = 4978;
+}
+
+#endif // PITCHES_H
